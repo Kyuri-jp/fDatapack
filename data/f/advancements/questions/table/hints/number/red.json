@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_wool"
+    },
+    "title": "White",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false   
+  },
+  "parent": "f:questions/table/colors/red",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}  

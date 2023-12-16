@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_wool"
+    },
+    "title": "Magenta",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false   
+  },
+  "parent": "f:questions/table/colors/blue",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}  

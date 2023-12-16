@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:writable_book"
+      },
+      "title": "□|->",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false   
+    },
+    "parent": "f:questions/table/hints/number/green",
+    "criteria": {
+      "dummy": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": false
+  }  

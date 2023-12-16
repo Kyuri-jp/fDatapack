@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:red_concrete"
+      },
+      "title": "Red",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "f:questions/table/root",
+    "criteria": {
+      "dummy": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": false
+  }  

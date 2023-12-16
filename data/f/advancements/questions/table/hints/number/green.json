@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "title": "Light Blue",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false   
+  },
+  "parent": "f:questions/table/colors/green",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}  
