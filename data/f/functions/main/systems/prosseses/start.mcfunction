@@ -10,7 +10,10 @@ execute if score $f.start.count count matches 7 run setblock 9 28 9 glass destro
 
 execute unless score $f.start.count count matches 10.. run schedule function f:main/systems/prosseses/start 1s
 execute if score $f.start.count count matches 8 run tp @a 8 -16 8
+execute if score $f.start.count count matches 8 run function f:dev/reset/field/deployments/reset
 execute if score $f.start.count count matches 10 run title @a title {"text": "f.","italic": true}
 execute if score $f.start.count count matches 10 as @a at @s run playsound ambient.cave player @s ~ ~ ~
 execute if score $f.start.count count matches 10 run effect give @a darkness 5
+execute if score $f.start.count count matches 10 as @a at @s run summon item ~ ~ ~ {Item:{id:"minecraft:written_book",Count:1b}}
+execute if score $f.start.count count matches 10 as @a at @s run data modify entity @e[type=item,distance=..0.01,sort=nearest,limit=1] Item.tag set from block 9 29 4 Book.tag 
 execute if score $f.start.count count matches 10 run function f:dev/reset/preparation_room/deployments/reset
