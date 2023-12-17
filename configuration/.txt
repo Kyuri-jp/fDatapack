@@ -1,0 +1,3 @@
+loots.json is loot_table.
+This is the wrong place for loots.json.
+Move loot.json.

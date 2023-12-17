@@ -5,6 +5,8 @@ scoreboard objectives add answerDetect dummy
 scoreboard objectives add count dummy
 scoreboard objectives add bools dummy
 
+loot give @a loot f:loots
+
 tellraw @a {"text":"==============================","color":"gold"}
 tellraw @a ["",{"text":"[Datapack]"},{"text":"dataPackVersion:0.0.0.dev","bold":true,"color":"gold"}]
 tellraw @a {"text":"==============================","color":"gold"}

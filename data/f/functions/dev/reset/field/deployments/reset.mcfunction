@@ -1,0 +1,1 @@
+data modify block -10 -33 8 Page set value 0

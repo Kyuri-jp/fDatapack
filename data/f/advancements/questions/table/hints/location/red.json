@@ -3,7 +3,7 @@
       "icon": {
         "item": "minecraft:writable_book"
       },
-      "title": "□□□□□□|□■□",
+      "title": "□□□|->",
       "description": "",
       "show_toast": false,
       "announce_to_chat": false   
