@@ -15,5 +15,5 @@ tp @a[scores={join=..1}] 9 29 9
 loot give @a loot f:loots
 
 tellraw @a {"text":"==============================","color":"gold"}
-tellraw @a ["",{"text":"[Datapack]"},{"text":"dataPackVersion:0.0.0.dev","bold":true,"color":"gold"}]
+tellraw @a ["",{"text":"[Datapack]"},{"text":"dataPackVersion:0.0.1","bold":true,"color":"gold"}]
 tellraw @a {"text":"==============================","color":"gold"}

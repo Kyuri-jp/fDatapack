@@ -7,7 +7,7 @@
       "description": "",
       "show_toast": false,
       "announce_to_chat": false,
-      "background":"minecraft:textures/block/quartz_block_top.png"
+      "background":"minecraft:textures/block/bedrock.png"
     },
     "criteria": {
       "dummy": {
